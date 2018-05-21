@@ -11,10 +11,8 @@ class ApiController extends Controller {
     public function convert() {
 
         $response = [];
-
-
+        
         $request = Request::createFromGlobals();
-
         $quantity = $request->request->get('quantity', 0);
         $from = $request->request->get('from', 'THB');
         $to = $request->request->get('to', 'USD');
