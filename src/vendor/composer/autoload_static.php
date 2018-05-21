@@ -14,6 +14,9 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -92,14 +95,25 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Link\\' => 9,
+            'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
             'PackageVersions\\' => 16,
         ),
+        'O' => 
+        array (
+            'OneForge\\ForexQuotes\\' => 21,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'F' => 
         array (
@@ -107,6 +121,7 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
         ),
         'E' => 
         array (
+            'ElephantIO\\' => 11,
             'Egulias\\EmailValidator\\' => 23,
             'EasyCorp\\EasyLog\\' => 17,
         ),
@@ -365,6 +380,10 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
         array (
             0 => __DIR__ . '/..' . '/psr/link/src',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
@@ -381,13 +400,34 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
         ),
+        'OneForge\\ForexQuotes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oneforge/forexquotes/lib',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
         'Fig\\Link\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/link-util/src',
+        ),
+        'ElephantIO\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wisembly/elephant.io/src',
+            1 => __DIR__ . '/..' . '/wisembly/elephant.io/test',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -460,6 +500,13 @@ class ComposerStaticInit4c6d71ed0e9d3e099121d8addf4cfd0b
             'ProxyManager\\' => 
             array (
                 0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
+            ),
+        ),
+        'O' => 
+        array (
+            'OneForge\\ForexQuotes' => 
+            array (
+                0 => __DIR__ . '/..' . '/oneforge/forexquotes/lib',
             ),
         ),
         'D' => 

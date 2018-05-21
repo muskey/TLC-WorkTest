@@ -10,7 +10,7 @@ namespace PackageVersions;
  */
 final class Versions
 {
-    const ROOT_PACKAGE_NAME = 'symfony/website-skeleton';
+    const ROOT_PACKAGE_NAME = '__root__';
     const VERSIONS = array (
   'doctrine/annotations' => 'v1.6.0@c7f2050c68a9ab0bdb0f98567ec08d80ea7d24d5',
   'doctrine/cache' => 'v1.7.1@b3217d58609e9c8e661cd41357a54d926c4a2a1a',
@@ -27,15 +27,20 @@ final class Versions
   'doctrine/orm' => 'v2.6.1@87ee409783a4a322b5597ebaae558661404055a7',
   'egulias/email-validator' => '2.1.4@8790f594151ca6a2010c6218e09d96df67173ad3',
   'fig/link-util' => '1.0.0@1a07821801a148be4add11ab0603e4af55a72fac',
+  'guzzlehttp/guzzle' => '6.3.3@407b0cb880ace85c9b63c5f9551db498cb2d50ba',
+  'guzzlehttp/promises' => 'v1.3.1@a59da6cf61d80060647ff4d3eb2c03a2bc694646',
+  'guzzlehttp/psr7' => '1.4.2@f5b8a8512e2b58b0071a7280e39f14f72e05d87c',
   'jdorn/sql-formatter' => 'v1.2.17@64990d96e0959dff8e059dfcdc1af130728d92bc',
   'monolog/monolog' => '1.23.0@fd8c787753b3a2ad11bc60c063cff1358a32a3b4',
   'ocramius/package-versions' => '1.3.0@4489d5002c49d55576fa0ba786f42dbb009be46f',
   'ocramius/proxy-manager' => '2.1.1@e18ac876b2e4819c76349de8f78ccc8ef1554cd7',
+  'oneforge/forexquotes' => '2.0.10@30a91958290fad94d8a89a799f3376df197a9e80',
   'phpdocumentor/reflection-common' => '1.0.1@21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6',
   'phpdocumentor/reflection-docblock' => '4.3.0@94fd0001232e47129dd3504189fa1c7225010d08',
   'phpdocumentor/type-resolver' => '0.4.0@9c977708995954784726e25d0cd1dddf4e65b0f7',
   'psr/cache' => '1.0.1@d11b50ad223250cf17b86e38383413f5a6764bf8',
   'psr/container' => '1.0.0@b7ce3b176482dbbc1245ebf52b181af44c2cf55f',
+  'psr/http-message' => '1.0.1@f6561bf28d520154e4b0ec72be95418abe6d9363',
   'psr/link' => '1.0.0@eea8e8662d5cd3ae4517c9b864493f59fca95562',
   'psr/log' => '1.0.2@4ebe3a8bf773a19edfe0a84b6585ba3d401b724d',
   'psr/simple-cache' => '1.0.1@408d5eafb83c57f6365a3ca330ff23aa4a5fa39b',
@@ -85,6 +90,7 @@ final class Versions
   'symfony/yaml' => 'v4.0.10@048b1be5fb96e73ff1d065f5e7e23f84415ac907',
   'twig/twig' => 'v2.4.8@7b604c89da162034bdf4bb66310f358d313dd16d',
   'webmozart/assert' => '1.3.0@0df1908962e7a3071564e857d86874dad1ef204a',
+  'wisembly/elephant.io' => 'v3.3.1@9d56f409fe231a906af87005f83a135565632d3f',
   'zendframework/zend-code' => '3.3.0@6b1059db5b368db769e4392c6cb6cc139e56640d',
   'zendframework/zend-eventmanager' => '3.2.1@a5e2583a211f73604691586b8406ff7296a946dd',
   'easycorp/easy-log-handler' => 'v1.0.4@1a617a37ab9389eac4e2e1d14cb70ee0087d724d',
@@ -107,7 +113,7 @@ final class Versions
   'symfony/polyfill-php71' => '*@',
   'symfony/polyfill-php70' => '*@',
   'symfony/polyfill-php56' => '*@',
-  'symfony/website-skeleton' => 'v4.0.7@',
+  '__root__' => 'No version set (parsed as 1.0.0)@',
 );
 
     private function __construct()
