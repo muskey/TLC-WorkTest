@@ -1,4 +1,6 @@
 {
+    "name": "muskey/tlc-work-test",
+    "description": "Work Test App",
     "type": "project",
     "license": "proprietary",
     "require": {
