@@ -1,0 +1,13 @@
+{
+    "name": "muskey/tlc-work-test",
+    "description": "Work Test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pattarachai Srilaporn",
+            "email": "muskey@gmail.com"
+        }
+    ],
+    "require": {}
+}
