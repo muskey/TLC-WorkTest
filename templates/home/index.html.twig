@@ -110,7 +110,8 @@
         
         xhr = $.post(url, data, function(response) {
             
-            if (typeof response.data == "undefined") {
+            if (typeof response.data == "undefined" || response.data == null) {
+                alert('API ERROR');
                 return;
             }
             
