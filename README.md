@@ -6,7 +6,7 @@ Work Test
 ## Installation
 
 
-    composer create-project muskey/tlc-work-test @dev
+    composer create-project muskey/tlc-work-test my_work_test @dev
 
 * Add API Key in .env file (API_KEY)
 
